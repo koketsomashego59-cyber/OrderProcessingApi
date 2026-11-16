@@ -1,0 +1,19 @@
+Order Processing Api/
+│
+├── .mvn/wrapper/          # Maven wrapper files
+├── src/
+│   ├── main/
+│   │   ├── java/com/OrderProcessingApi/
+│   │   │   ├── controller/   # REST Controllers (DataController)
+│   │   │   ├── exception/    # Custom exceptions & handlers[cite: 1]
+│   │   │   ├── model/        # Data models[cite: 1]
+│   │   │   ├── repository/   # Data repositories[cite: 1]
+│   │   │   ├── service/      # Business logic[cite: 1]
+│   │   │   ├── view/         # CRUD views[cite: 1]
+│   │   │   └── OrderProcessingApiApplication.java[cite: 1]
+│   │   └── resources/
+│   │       └── application.properties[cite: 1]
+│   └── test/                 # Unit and integration tests (DataServiceTest)[cite: 1]
+├── pom.xml                   # Maven project configuration[cite: 1]
+├── orders.txt                # Sample order text file[cite: 1]
+└── order_2.txt               # Sample order text file[cite: 1]
