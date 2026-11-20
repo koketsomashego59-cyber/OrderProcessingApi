@@ -10,30 +10,15 @@ This project is designed to handle order-related operations through a REST API, 
 
 ```text
 OrderProcessingApi/
-├── .mvn/
-│   └── wrapper/                 # Maven wrapper files
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com/
-│   │   │       └── OrderProcessingApi/
-│   │   │           ├── controller/   # REST controllers
-│   │   │           ├── exception/    # Custom exceptions and exception handlers
-│   │   │           ├── model/        # Domain models
-│   │   │           ├── repository/   # Data access layer
-│   │   │           ├── service/      # Business logic
-│   │   │           ├── view/         # CRUD views / presentation layer
-│   │   │           └── OrderProcessingApiApplication.java
-│   │   └── resources/
-│   │       └── application.properties
-│   └── test/
-│       └── java/                 # Unit and integration tests
-├── pom.xml                       # Maven project configuration
-├── orders.txt                    # Sample order data file
-├── order_2.txt                   # Additional sample order file
-├── README.md                     # Project documentation
-└── .gitignore                    # Git ignore settings
-```
+
+└── OrderProcessingApi/
+          ├── controller/   # REST controllers
+          ├── exception/    # Custom exceptions and exception handlers
+          ├── model/        # Domain models
+          ├── service/      # Business logic
+          ├── view/         # CRUD views / presentation layer
+          └── OrderProcessingApiApplication.java
+
 
 ## Features
 
